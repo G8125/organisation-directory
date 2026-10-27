@@ -1,0 +1,198 @@
+/* ==========================================================================
+   DESIGN TOKENS & SYSTEM FOUNDATION (FR6 Compliance)
+   ========================================================================== */
+
+:root {
+  /* --- Brand Identity Tokens (One-stop brand color modification) --- */
+  --brand-hue: 224;
+  --brand-sat: 82%;
+  --brand-light: 56%;
+
+  --color-brand: hsl(var(--brand-hue), var(--brand-sat), var(--brand-light));
+  --color-brand-hover: hsl(var(--brand-hue), var(--brand-sat), calc(var(--brand-light) - 8%));
+  --color-brand-active: hsl(var(--brand-hue), var(--brand-sat), calc(var(--brand-light) - 14%));
+  --color-brand-light: hsl(var(--brand-hue), var(--brand-sat), 96%);
+  --color-brand-border: hsl(var(--brand-hue), var(--brand-sat), 84%);
+  --color-brand-ring: hsla(var(--brand-hue), var(--brand-sat), var(--brand-light), 0.25);
+  --color-brand-contrast: #ffffff;
+
+  /* --- Semantic Status Tokens (Accessible & Contrast Checked WCAG 2.1 AA) --- */
+  --status-active-bg: #ecfdf5;
+  --status-active-text: #065f46;
+  --status-active-dot: #10b981;
+  --status-active-border: #a7f3d0;
+
+  --status-inactive-bg: #f3f4f6;
+  --status-inactive-text: #374151;
+  --status-inactive-dot: #9ca3af;
+  --status-inactive-border: #e5e7eb;
+
+  --status-suspended-bg: #fef2f2;
+  --status-suspended-text: #991b1b;
+  --status-suspended-dot: #ef4444;
+  --status-suspended-border: #fecaca;
+
+  --status-unknown-bg: #fffbeb;
+  --status-unknown-text: #92400e;
+  --status-unknown-dot: #f59e0b;
+  --status-unknown-border: #fde68a;
+
+  /* --- Neutral & Surface Tokens --- */
+  --color-bg-canvas: #f8fafc;
+  --color-surface-card: #ffffff;
+  --color-surface-card-hover: #f1f5f9;
+  --color-surface-alt: #f8fafc;
+  --color-border-subtle: #e2e8f0;
+  --color-border-strong: #cbd5e1;
+
+  --color-text-main: #0f172a;
+  --color-text-secondary: #475569;
+  --color-text-muted: #64748b;
+  --color-text-faint: #94a3b8;
+  --color-text-inverse: #ffffff;
+
+  /* --- State Feedback Tokens --- */
+  --color-danger: #dc2626;
+  --color-danger-bg: #fef2f2;
+  --color-danger-border: #fca5a5;
+  --color-danger-text: #991b1b;
+
+  --color-warning-bg: #fffbeb;
+  --color-warning-border: #fde68a;
+  --color-warning-text: #92400e;
+
+  --color-success-bg: #ecfdf5;
+  --color-success-border: #a7f3d0;
+  --color-success-text: #065f46;
+
+  /* --- Spacing Scale Tokens --- */
+  --space-3xs: 2px;
+  --space-2xs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 20px;
+  --space-xl: 24px;
+  --space-2xl: 32px;
+  --space-3xl: 40px;
+
+  /* --- Border Radius Tokens --- */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+
+  /* --- Shadow & Elevation Tokens --- */
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  --shadow-focus: 0 0 0 3px var(--color-brand-ring);
+  --shadow-focus-danger: 0 0 0 3px rgba(220, 38, 38, 0.25);
+
+  /* --- Typography Tokens --- */
+  --font-family-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  --font-family-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --font-size-xs: 0.75rem;     /* 12px */
+  --font-size-sm: 0.875rem;    /* 14px */
+  --font-size-base: 1rem;       /* 16px */
+  --font-size-lg: 1.125rem;    /* 18px */
+  --font-size-xl: 1.25rem;     /* 20px */
+  --font-size-2xl: 1.5rem;     /* 24px */
+  --font-size-3xl: 1.875rem;   /* 30px */
+
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --line-height-tight: 1.25;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.625;
+}
+
+/* Reviewer Brand Switcher Themes (Modifying brand color centrally) */
+[data-brand="indigo"] {
+  --brand-hue: 234;
+  --brand-sat: 89%;
+  --brand-light: 59%;
+}
+
+[data-brand="teal"] {
+  --brand-hue: 174;
+  --brand-sat: 86%;
+  --brand-light: 38%;
+}
+
+[data-brand="purple"] {
+  --brand-hue: 271;
+  --brand-sat: 81%;
+  --brand-light: 53%;
+}
+
+[data-brand="emerald"] {
+  --brand-hue: 152;
+  --brand-sat: 76%;
+  --brand-light: 36%;
+}
+
+/* Global Reset & Base */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-normal);
+  color: var(--color-text-main);
+  background-color: var(--color-bg-canvas);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Accessibility: Visually Hidden for Screen Readers */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Focus Visible Consistency */
+:focus-visible {
+  outline: none;
+  box-shadow: var(--shadow-focus);
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg-canvas);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border-strong);
+  border-radius: var(--radius-full);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-muted);
+}
