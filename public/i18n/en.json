@@ -1,0 +1,127 @@
+{
+  "app": {
+    "title": "Organisation Directory",
+    "subtitle": "Internal operations portal for managing and monitoring organisations",
+    "badge_ops": "Ops Team View",
+    "badge_records": "{count} organisations total",
+    "brand_switcher": "Brand Theme",
+    "view_decisions": "Reviewer Notes & Decisions"
+  },
+  "conflicts": {
+    "banner_title": "Architecture & Conflict Resolutions",
+    "c1_badge": "Conflict 1 Resolved: Virtual Viewport + Rate Limit Engine",
+    "c1_summary": "Ops team requested 1 page with no pagination clicks, while API enforces 25 items/req and 5 req/min. Solved via a single scrollable viewport, progressive buffer queue, and rate-limit throttle with honest status.",
+    "c2_badge": "Conflict 2 Resolved: Multi-Modal Accessible Status Indicator",
+    "c2_summary": "Designer wanted dot only; WCAG 1.4.1 forbids color as the only visual cue. Solved with semantic SVG geometric icons + color + tooltips + screen-reader labels.",
+    "toggle_status_mode": "Status Display Mode",
+    "mode_accessible_dot": "Icon Dot + Tooltip",
+    "mode_full_pill": "Icon + Label Pill"
+  },
+  "rate_limit": {
+    "status_ready": "API Rate Limit: {remaining} requests remaining this minute",
+    "status_waiting": "API Rate Limited (5 req/min): Resuming in {seconds}s...",
+    "buffer_progress": "Loaded {loaded} of {total} organisations"
+  },
+  "filters": {
+    "search_label": "Search organisations",
+    "search_placeholder": "Search by organisation name (debounced)...",
+    "status_label": "Status Filter",
+    "all_statuses": "All Statuses",
+    "status_active": "Active",
+    "status_inactive": "Inactive",
+    "status_suspended": "Suspended",
+    "status_unknown": "Unknown / Anomalous",
+    "sort_label": "Sort by",
+    "sort_name": "Name",
+    "sort_created": "Created Date",
+    "sort_members": "Member Count",
+    "sort_order_asc": "Ascending",
+    "sort_order_desc": "Descending",
+    "results_count_singular": "Showing 1 matching organisation",
+    "results_count_plural": "Showing {count} matching organisations",
+    "results_total": "out of {total} total",
+    "clear_filters": "Clear all filters"
+  },
+  "table": {
+    "caption": "Organisation directory table showing name, status, member count, owner, and creation date",
+    "col_name": "Organisation",
+    "col_status": "Status",
+    "col_members": "Members",
+    "col_owner": "Owner",
+    "col_created": "Created",
+    "col_actions": "Actions",
+    "sort_aria_asc": "sorted ascending. Click to sort descending",
+    "sort_aria_desc": "sorted descending. Click to sort ascending",
+    "sort_aria_none": "not sorted. Click to sort ascending",
+    "unnamed_org": "Unnamed Organisation (ID: {id})",
+    "unknown_status": "Unknown Status",
+    "no_owner": "No owner assigned",
+    "invalid_email": "Invalid email: {email}",
+    "no_email": "No email provided",
+    "unknown_date": "Date unavailable",
+    "members_zero": "0 members",
+    "members_one": "1 member",
+    "members_many": "{count} members",
+    "members_invalid": "Invalid count ({count})",
+    "copy_email": "Copy email address",
+    "copied": "Copied to clipboard!",
+    "flag_anomalous": "Raw data anomaly detected and normalized"
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "suspended": "Suspended",
+    "unknown": "Unknown"
+  },
+  "states": {
+    "loading_title": "Loading Organisations...",
+    "loading_desc": "Simulating API request (400–900ms latency)...",
+    "empty_title": "No organisations found",
+    "empty_desc": "No organisations matched your current search and filter criteria.",
+    "empty_action": "Reset Search & Filters",
+    "error_title": "API Request Failed",
+    "error_desc": "The simulated 15% random failure rate or network anomaly occurred.",
+    "error_retry": "Retry Request",
+    "simulated_badge": "Simulated 15% Chaos Test"
+  },
+  "form": {
+    "trigger_button": "Add Organisation",
+    "modal_title": "Add New Organisation",
+    "modal_desc": "Create a new organisation entry for the operations directory.",
+    "error_summary_title": "Please resolve the following errors before submitting:",
+    "field_name": "Organisation Name",
+    "field_name_placeholder": "e.g., Acme Global Enterprises",
+    "field_name_hint": "Required, 3 to 80 characters, must be globally unique (case-insensitive).",
+    "field_status": "Status",
+    "field_status_placeholder": "Select status...",
+    "field_owner": "Owner Email",
+    "field_owner_placeholder": "e.g., ops@acme.example",
+    "field_owner_hint": "Required, must be a syntactically valid email address.",
+    "field_members": "Member Count",
+    "field_members_placeholder": "e.g., 25",
+    "field_members_hint": "Optional, must be an integer of 0 or greater.",
+    "btn_cancel": "Cancel",
+    "btn_submit": "Create Organisation",
+    "btn_submitting": "Creating...",
+    "errors": {
+      "name_required": "Organisation name is required.",
+      "name_minlength": "Organisation name must be at least 3 characters.",
+      "name_maxlength": "Organisation name cannot exceed 80 characters.",
+      "name_unique": "An organisation with this name already exists (case-insensitive).",
+      "status_required": "Please select an organisation status.",
+      "owner_required": "Owner email address is required.",
+      "owner_invalid": "Please enter a valid email address.",
+      "members_min": "Member count cannot be negative (0 or greater required)."
+    },
+    "toast_success": "Organisation \"{name}\" was successfully created and added to the directory!"
+  },
+  "decisions_modal": {
+    "title": "Architecture, Conflicts & Trade-offs (DECISIONS.md)",
+    "subtitle": "Defended engineering choices for the Senior Front-End assessment",
+    "close": "Close dialog"
+  },
+  "footer": {
+    "text": "Internal Operations Tool — Built with Angular 18 Standalone, Signals, Strict Mode, and Accessible Design Tokens.",
+    "wcag": "WCAG 2.1 AA Compliant"
+  }
+}
