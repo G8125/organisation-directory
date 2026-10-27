@@ -1,0 +1,1298 @@
+[
+  {
+    "id": 1,
+    "name": "Northwind Traders",
+    "status": "active",
+    "memberCount": 42,
+    "owner": {
+      "email": "ops@northwind.example"
+    },
+    "createdAt": "2024-03-11T09:12:00Z"
+  },
+  {
+    "id": 2,
+    "name": "",
+    "status": "ACTIVE",
+    "memberCount": "12",
+    "owner": {
+      "email": "a@b.example"
+    },
+    "createdAt": 1710150720000
+  },
+  {
+    "id": 3,
+    "name": null,
+    "status": "Active",
+    "memberCount": -1,
+    "createdAt": "2024-01-02T00:00:00Z"
+  },
+  {
+    "id": 42,
+    "name": "Globex Corporation",
+    "status": "suspended",
+    "memberCount": 7,
+    "owner": {
+      "email": "hq@globex.example"
+    },
+    "createdAt": "2023-11-30T14:45:10Z"
+  },
+  {
+    "id": 42,
+    "name": "Globex Corporation Ltd",
+    "status": "actve",
+    "memberCount": 7,
+    "owner": {
+      "email": "hq@globex.example"
+    },
+    "createdAt": "2023-11-30T14:45:10Z"
+  },
+  {
+    "id": 6,
+    "name": "شركة الأمل 🚀",
+    "status": "active",
+    "memberCount": 3,
+    "owner": {
+      "email": "info@amal.example"
+    },
+    "createdAt": "2025-06-01T08:00:00Z"
+  },
+  {
+    "id": 7,
+    "name": "The Very Long Organisation Name That Somebody Actually Typed Into The Field Because Nobody Validated It And It Keeps Going Well Past Any Reasonable Column Width And Still Has Not Stopped",
+    "status": "inactive",
+    "memberCount": 0,
+    "owner": {
+      "email": "long@example.com"
+    },
+    "createdAt": "2024-07-19T16:20:00Z"
+  },
+  {
+    "id": 8,
+    "name": "Initech",
+    "status": null,
+    "memberCount": null,
+    "owner": {
+      "email": "not-an-email"
+    },
+    "createdAt": "not a date"
+  },
+  {
+    "id": 9,
+    "name": "BioHealth Dynamics #9",
+    "status": "suspended",
+    "memberCount": "36",
+    "createdAt": "2021-01-03T06:14:00Z",
+    "owner": {
+      "email": "admin9@example.com"
+    }
+  },
+  {
+    "id": 10,
+    "name": "مؤسسة النور الدولية ✨",
+    "status": "Inactive",
+    "memberCount": 1436,
+    "createdAt": "2023-01-25T05:44:00Z",
+    "owner": {
+      "email": "admin10@northwind.example"
+    }
+  },
+  {
+    "id": 11,
+    "name": "Oceanic Airlines",
+    "status": "inactive",
+    "memberCount": "196",
+    "createdAt": 1711101120000,
+    "owner": {
+      "email": "ops+11@invalid"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Hooli Technologies",
+    "status": "suspnded",
+    "memberCount": 88,
+    "createdAt": "2024-02-18T09:53:00Z",
+    "owner": {
+      "email": "admin12@example.com"
+    }
+  },
+  {
+    "id": 99,
+    "name": "InGen Genetics",
+    "status": "Active",
+    "memberCount": null,
+    "createdAt": "2021-04-28T03:24:00Z",
+    "owner": {
+      "email": "invalid-email-address"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Monsters Inc.",
+    "status": "suspnded",
+    "memberCount": -6,
+    "createdAt": "2021-10-21T05:34:00Z",
+    "owner": {
+      "email": "invalid-email-address"
+    }
+  },
+  {
+    "id": 15,
+    "name": null,
+    "status": "inactve",
+    "memberCount": -7,
+    "createdAt": "2022-11-11T01:14:00Z",
+    "owner": {
+      "email": "invalid-email-address"
+    }
+  },
+  {
+    "id": 16,
+    "name": "Wayne Enterprises",
+    "status": null,
+    "memberCount": "55",
+    "createdAt": "2026-08-13T10:00:00Z",
+    "owner": {
+      "email": "admin16@corp.internal"
+    }
+  },
+  {
+    "id": 17,
+    "name": "Summit Peak Ventures",
+    "status": "suspended",
+    "memberCount": -9,
+    "createdAt": "2024-06-08T04:32:00Z",
+    "owner": {
+      "email": "admin17@company.org"
+    }
+  },
+  {
+    "id": 18,
+    "name": "Menehune Water #18",
+    "status": "ACTIVE",
+    "memberCount": 313,
+    "createdAt": "2024-07-20T14:33:00Z",
+    "owner": {
+      "email": "admin18@company.org"
+    }
+  },
+  {
+    "id": 19,
+    "name": "Sterling Cooper Advertising",
+    "status": "active",
+    "memberCount": 234,
+    "createdAt": "2023-02-10T13:10:00Z",
+    "owner": {
+      "email": "admin19@corp.internal"
+    }
+  },
+  {
+    "id": 20,
+    "name": "Planet Express Delivery #20",
+    "status": "suspended",
+    "memberCount": 365,
+    "createdAt": "2023-11-17T19:12:00Z",
+    "owner": {
+      "email": "admin20@example.com"
+    }
+  },
+  {
+    "id": 21,
+    "name": "Aperture Science",
+    "status": "INACTIVE",
+    "memberCount": 1086,
+    "createdAt": "2021-06-27T09:15:00Z",
+    "owner": {
+      "email": "admin21@corp.internal"
+    }
+  },
+  {
+    "id": 22,
+    "name": "Cyberdyne Systems #22",
+    "status": "Active",
+    "memberCount": null,
+    "createdAt": "2022-03-22T15:35:00Z",
+    "owner": {
+      "email": "admin22@example.com"
+    }
+  },
+  {
+    "id": 23,
+    "name": "Black Mesa Research #23",
+    "status": "pending",
+    "memberCount": 1104,
+    "createdAt": "2024-11-21T11:28:00Z",
+    "owner": {
+      "email": "admin23@northwind.example"
+    }
+  },
+  {
+    "id": 24,
+    "name": "株式会社サクラ産業 🌸",
+    "status": "inactve",
+    "memberCount": "87",
+    "createdAt": "2022-01-03T22:40:00Z"
+  },
+  {
+    "id": 25,
+    "name": "Cyberdyne Systems #25",
+    "status": "ACTIVE",
+    "memberCount": 145,
+    "createdAt": "2022-09-05T23:59:00Z",
+    "owner": {
+      "email": "admin25@corp.internal"
+    }
+  },
+  {
+    "id": 99,
+    "name": "Nexus Logistics Global",
+    "status": "archived",
+    "memberCount": 389,
+    "createdAt": "2023-07-14T14:55:00Z"
+  },
+  {
+    "id": 27,
+    "name": null,
+    "status": "ACTIVE",
+    "memberCount": 1323,
+    "createdAt": "2023-02-08T06:12:00Z"
+  },
+  {
+    "id": 28,
+    "name": "ООО Восход Сибирь",
+    "status": "pending",
+    "memberCount": -8,
+    "createdAt": "2024-09-04T01:41:00Z",
+    "owner": {
+      "email": "invalid-email-address"
+    }
+  },
+  {
+    "id": 29,
+    "name": "ООО Восход Сибирь",
+    "status": "Active",
+    "memberCount": 484,
+    "createdAt": "2022-07-02T05:24:00Z",
+    "owner": {}
+  },
+  {
+    "id": 30,
+    "name": "Acme Anvils Corp",
+    "status": "suspended",
+    "memberCount": 931,
+    "createdAt": "2024-03-07T09:13:00Z",
+    "owner": {
+      "email": "invalid-email-address"
+    }
+  },
+  {
+    "id": 31,
+    "name": "Cyberdyne Systems",
+    "status": "ACTIVE",
+    "memberCount": 117,
+    "createdAt": "2022-01-17T02:54:00Z"
+  },
+  {
+    "id": 32,
+    "name": "Tyrell Corp #32",
+    "status": "Active",
+    "memberCount": 481,
+    "createdAt": "2021-10-03T13:42:00Z",
+    "owner": {
+      "email": "admin32@northwind.example"
+    }
+  },
+  {
+    "id": 33,
+    "name": "Quantum Leap Labs",
+    "status": "Suspended",
+    "memberCount": 418,
+    "createdAt": "2026-07-05T10:00:00Z",
+    "owner": {
+      "email": "admin33@corp.internal"
+    }
+  },
+  {
+    "id": 34,
+    "name": "CloudScale Infrastructure",
+    "status": "unknown",
+    "memberCount": "193",
+    "createdAt": "2021-02-18T06:32:00Z",
+    "owner": {
+      "email": "admin34@example.com"
+    }
+  },
+  {
+    "id": 35,
+    "name": "Sterling Cooper Advertising #35",
+    "status": "suspnded",
+    "memberCount": 500,
+    "createdAt": 1713174720000,
+    "owner": {
+      "email": "ops+35@invalid"
+    }
+  },
+  {
+    "id": 36,
+    "name": "ООО Восход Сибирь",
+    "status": "active",
+    "memberCount": 1135,
+    "createdAt": "2022-05-04T03:47:00Z",
+    "owner": {
+      "email": "invalid-email-address"
+    }
+  },
+  {
+    "id": 37,
+    "name": "TechNova Solutions #37",
+    "status": "SUSPENDED",
+    "memberCount": 1469,
+    "createdAt": "2023-09-16T08:57:00Z",
+    "owner": {
+      "email": "ops+37@invalid"
+    }
+  },
+  {
+    "id": 38,
+    "name": "Cyberdyne Systems #38",
+    "status": "pending",
+    "memberCount": 90,
+    "createdAt": "2023-03-24T14:35:00Z"
+  },
+  {
+    "id": 77,
+    "name": "TechNova Solutions #39",
+    "status": "Active",
+    "memberCount": 1415,
+    "createdAt": "2022-07-05T01:19:00Z",
+    "owner": {
+      "email": "admin39@example.com"
+    }
+  },
+  {
+    "id": 40,
+    "name": "InGen Genetics",
+    "status": "ACTIVE",
+    "memberCount": 430,
+    "createdAt": "2024-10-24T04:59:00Z",
+    "owner": {
+      "email": "admin40@example.com"
+    }
+  },
+  {
+    "id": 41,
+    "name": "Dunder Mifflin Paper Co.",
+    "status": "INACTIVE",
+    "memberCount": 50,
+    "createdAt": "2024-11-28T23:51:00Z",
+    "owner": {}
+  },
+  {
+    "id": 42,
+    "name": "Dunder Mifflin Paper Co. #42",
+    "status": "actve",
+    "memberCount": 79,
+    "createdAt": "2026-08-12T10:00:00Z",
+    "owner": {
+      "email": "admin42@northwind.example"
+    }
+  },
+  {
+    "id": 43,
+    "name": "Bluth Company",
+    "status": "inactve",
+    "memberCount": "169",
+    "createdAt": "2021-05-12T20:32:00Z",
+    "owner": {}
+  },
+  {
+    "id": 44,
+    "name": "Omni Consumer Products",
+    "status": "Suspended",
+    "memberCount": 236,
+    "createdAt": "2026-05-02T10:00:00Z",
+    "owner": {
+      "email": "admin44@corp.internal"
+    }
+  },
+  {
+    "id": 45,
+    "name": "Hooli Technologies",
+    "status": "suspnded",
+    "memberCount": 642,
+    "createdAt": "2022-05-02T22:27:00Z",
+    "owner": {
+      "email": "admin45@example.com"
+    }
+  },
+  {
+    "id": 46,
+    "name": "Acme Anvils Corp",
+    "status": "Inactive",
+    "memberCount": 143,
+    "createdAt": "2021-12-10T16:19:00Z",
+    "owner": {
+      "email": "admin46@corp.internal"
+    }
+  },
+  {
+    "id": 47,
+    "name": "CloudScale Infrastructure",
+    "status": null,
+    "memberCount": 1135,
+    "createdAt": "2024-11-24T05:39:00Z",
+    "owner": {}
+  },
+  {
+    "id": 48,
+    "name": "Nexus Logistics Global",
+    "status": "active",
+    "memberCount": "54",
+    "createdAt": "2024-11-07T16:30:00Z",
+    "owner": {
+      "email": "admin48@corp.internal"
+    }
+  },
+  {
+    "id": 49,
+    "name": "    #49",
+    "status": "Active",
+    "memberCount": "170",
+    "createdAt": 1714384320000,
+    "owner": {
+      "email": "admin49@corp.internal"
+    }
+  },
+  {
+    "id": 50,
+    "name": "   Whitespace Heavy Enterprise    #50",
+    "status": "SUSPENDED",
+    "memberCount": "51",
+    "createdAt": "not a date",
+    "owner": {}
+  },
+  {
+    "id": 51,
+    "name": "Central Perk Roasters",
+    "status": "Active",
+    "memberCount": 1289,
+    "createdAt": "2022-03-21T22:00:00Z",
+    "owner": {
+      "email": "admin51@company.org"
+    }
+  },
+  {
+    "id": 42,
+    "name": "Oceanic Airlines #52",
+    "status": "unknown",
+    "memberCount": null,
+    "createdAt": "2024-03-26T14:42:00Z",
+    "owner": {
+      "email": "invalid-email-address"
+    }
+  },
+  {
+    "id": 53,
+    "name": "株式会社サクラ産業 🌸",
+    "status": "Suspended",
+    "memberCount": 906,
+    "createdAt": "2024-03-24T15:28:00Z",
+    "owner": {
+      "email": "admin53@company.org"
+    }
+  },
+  {
+    "id": 54,
+    "name": "Sterling Cooper Advertising",
+    "status": "suspended",
+    "memberCount": 1067,
+    "createdAt": "2021-12-10T07:17:00Z",
+    "owner": {
+      "email": "admin54@northwind.example"
+    }
+  },
+  {
+    "id": 55,
+    "name": "Los Pollos Hermanos",
+    "status": "Active",
+    "memberCount": -4,
+    "createdAt": 1714902720000,
+    "owner": {
+      "email": "ops+55@invalid"
+    }
+  },
+  {
+    "id": 56,
+    "name": "Gringotts Financial #56",
+    "status": "pending",
+    "memberCount": "120",
+    "createdAt": "2024-10-23T00:54:00Z",
+    "owner": {
+      "email": "admin56@northwind.example"
+    }
+  },
+  {
+    "id": 57,
+    "name": "   Whitespace Heavy Enterprise   ",
+    "status": "archived",
+    "memberCount": null,
+    "createdAt": "2024-09-24T23:34:00Z",
+    "owner": {
+      "email": "ops+57@invalid"
+    }
+  },
+  {
+    "id": 58,
+    "name": "Synergy Capital Partners",
+    "status": "archived",
+    "memberCount": "112",
+    "createdAt": "2024-12-06T14:58:00Z",
+    "owner": {
+      "email": "admin58@company.org"
+    }
+  },
+  {
+    "id": 59,
+    "name": "Massive Dynamic",
+    "status": "active",
+    "memberCount": 1212,
+    "createdAt": 1715248320000,
+    "owner": {
+      "email": "admin59@example.com"
+    }
+  },
+  {
+    "id": 60,
+    "name": "Oceanic Airlines #60",
+    "status": "unknown",
+    "memberCount": -5,
+    "createdAt": "2026-06-11T10:00:00Z",
+    "owner": {
+      "email": "ops+60@invalid"
+    }
+  },
+  {
+    "id": 61,
+    "name": "   Whitespace Heavy Enterprise   ",
+    "status": "suspended",
+    "memberCount": 863,
+    "createdAt": 1715421120000,
+    "owner": {
+      "email": "invalid-email-address"
+    }
+  },
+  {
+    "id": 62,
+    "name": "Stark Industries",
+    "status": "ACTIVE",
+    "memberCount": 716,
+    "createdAt": "not a date",
+    "owner": {
+      "email": "invalid-email-address"
+    }
+  },
+  {
+    "id": 63,
+    "name": "Summit Peak Ventures #63",
+    "status": "active",
+    "memberCount": 408,
+    "createdAt": "2026-08-22T10:00:00Z",
+    "owner": {
+      "email": "admin63@northwind.example"
+    }
+  },
+  {
+    "id": 64,
+    "name": "Pied Piper",
+    "status": "Inactive",
+    "memberCount": 524,
+    "createdAt": "2021-03-10T03:37:00Z",
+    "owner": {
+      "email": "admin64@northwind.example"
+    }
+  },
+  {
+    "id": 42,
+    "name": "Bluth Company",
+    "status": null,
+    "memberCount": 1464,
+    "createdAt": "2022-02-23T09:54:00Z",
+    "owner": {}
+  },
+  {
+    "id": 66,
+    "name": "Horizon Media Labs",
+    "status": "actve",
+    "memberCount": 1159,
+    "createdAt": "2023-02-17T20:21:00Z",
+    "owner": {
+      "email": "admin66@corp.internal"
+    }
+  },
+  {
+    "id": 67,
+    "name": "Acme Anvils Corp",
+    "status": "archived",
+    "memberCount": -6,
+    "createdAt": "2024-03-24T16:41:00Z",
+    "owner": {
+      "email": "admin67@company.org"
+    }
+  },
+  {
+    "id": 68,
+    "name": "Monsters Inc.",
+    "status": "archived",
+    "memberCount": 1497,
+    "createdAt": "2021-05-15T07:48:00Z",
+    "owner": {
+      "email": "admin68@corp.internal"
+    }
+  },
+  {
+    "id": 69,
+    "name": "Planet Express Delivery",
+    "status": null,
+    "memberCount": "127",
+    "createdAt": "2023-05-11T08:56:00Z",
+    "owner": {
+      "email": "admin69@northwind.example"
+    }
+  },
+  {
+    "id": 70,
+    "name": "Synergy Capital Partners",
+    "status": "suspended",
+    "memberCount": 1058,
+    "createdAt": "2024-08-18T07:44:00Z",
+    "owner": {
+      "email": "admin70@example.com"
+    }
+  },
+  {
+    "id": 71,
+    "name": "Central Perk Roasters",
+    "status": "archived",
+    "memberCount": 35,
+    "createdAt": "2026-12-08T10:00:00Z"
+  },
+  {
+    "id": 72,
+    "name": "Bluth Company",
+    "status": "suspnded",
+    "memberCount": 1087,
+    "createdAt": "2023-06-23T14:17:00Z",
+    "owner": {
+      "email": "ops+72@invalid"
+    }
+  },
+  {
+    "id": 73,
+    "name": "Bluth Company #73",
+    "status": "actve",
+    "memberCount": 646,
+    "createdAt": "2022-04-07T23:30:00Z",
+    "owner": {}
+  },
+  {
+    "id": 74,
+    "name": "Monsters Inc.",
+    "status": "SUSPENDED",
+    "memberCount": 397,
+    "createdAt": "2023-01-23T17:08:00Z",
+    "owner": {
+      "email": "invalid-email-address"
+    }
+  },
+  {
+    "id": 75,
+    "name": "Monsters Inc. #75",
+    "status": "ACTIVE",
+    "memberCount": 1428,
+    "createdAt": 1716630720000,
+    "owner": {
+      "email": "admin75@company.org"
+    }
+  },
+  {
+    "id": 76,
+    "name": "Acme Anvils Corp",
+    "status": "archived",
+    "memberCount": 697,
+    "createdAt": "not a date",
+    "owner": {}
+  },
+  {
+    "id": 77,
+    "name": "Central Perk Roasters #77",
+    "status": "Active",
+    "memberCount": 151,
+    "createdAt": 1716803520000,
+    "owner": {
+      "email": "admin77@example.com"
+    }
+  },
+  {
+    "id": 99,
+    "name": "Bluth Company #78",
+    "status": "inactve",
+    "memberCount": -7,
+    "createdAt": "2024-08-15T09:55:00Z",
+    "owner": {
+      "email": "admin78@northwind.example"
+    }
+  },
+  {
+    "id": 79,
+    "name": "Quantum Leap Labs",
+    "status": "SUSPENDED",
+    "memberCount": 123,
+    "createdAt": "2022-11-07T08:42:00Z",
+    "owner": {
+      "email": "admin79@example.com"
+    }
+  },
+  {
+    "id": 80,
+    "name": "Soylent Corp #80",
+    "status": "INACTIVE",
+    "memberCount": 320,
+    "createdAt": "2024-05-02T07:18:00Z"
+  },
+  {
+    "id": 81,
+    "name": "",
+    "status": "SUSPENDED",
+    "memberCount": 929,
+    "createdAt": "2026-05-26T10:00:00Z"
+  },
+  {
+    "id": 82,
+    "name": "BioHealth Dynamics",
+    "status": "Inactive",
+    "memberCount": 1115,
+    "createdAt": 1717235520000,
+    "owner": {
+      "email": "invalid-email-address"
+    }
+  },
+  {
+    "id": 83,
+    "name": "Monsters Inc.",
+    "status": "Active",
+    "memberCount": null,
+    "createdAt": "2024-12-10T22:25:00Z",
+    "owner": {
+      "email": "admin83@corp.internal"
+    }
+  },
+  {
+    "id": 84,
+    "name": "Monsters Inc.",
+    "status": "archived",
+    "memberCount": 1224,
+    "createdAt": "2023-10-09T00:05:00Z"
+  },
+  {
+    "id": 85,
+    "name": "Wonka Industries",
+    "status": "active",
+    "memberCount": 1376,
+    "createdAt": "2022-08-17T20:28:00Z",
+    "owner": {
+      "email": "admin85@example.com"
+    }
+  },
+  {
+    "id": 86,
+    "name": "Monsters Inc. #86",
+    "status": "pending",
+    "memberCount": 1007,
+    "createdAt": "2023-06-22T03:54:00Z",
+    "owner": {
+      "email": "admin86@company.org"
+    }
+  },
+  {
+    "id": 87,
+    "name": "Black Mesa Research",
+    "status": "archived",
+    "memberCount": "103",
+    "createdAt": "2023-05-11T03:49:00Z",
+    "owner": {
+      "email": "admin87@example.com"
+    }
+  },
+  {
+    "id": 88,
+    "name": "Omni Consumer Products",
+    "status": "active",
+    "memberCount": 1111,
+    "createdAt": "2026-06-20T10:00:00Z",
+    "owner": {
+      "email": "admin88@example.com"
+    }
+  },
+  {
+    "id": 89,
+    "name": "   Whitespace Heavy Enterprise   ",
+    "status": "unknown",
+    "memberCount": 416,
+    "createdAt": 1717840320000,
+    "owner": {
+      "email": "invalid-email-address"
+    }
+  },
+  {
+    "id": 90,
+    "name": "Buy n Large",
+    "status": "archived",
+    "memberCount": -10,
+    "createdAt": "2021-09-14T02:14:00Z",
+    "owner": {
+      "email": "admin90@northwind.example"
+    }
+  },
+  {
+    "id": 42,
+    "name": "Planet Express Delivery",
+    "status": "inactive",
+    "memberCount": 1467,
+    "createdAt": "2024-08-16T07:29:00Z",
+    "owner": {
+      "email": "invalid-email-address"
+    }
+  },
+  {
+    "id": 92,
+    "name": "TechNova Solutions #92",
+    "status": "Inactive",
+    "memberCount": 1040,
+    "createdAt": "2023-07-11T16:17:00Z",
+    "owner": {
+      "email": "admin92@northwind.example"
+    }
+  },
+  {
+    "id": 93,
+    "name": "Acme Anvils Corp #93",
+    "status": "SUSPENDED",
+    "memberCount": 1187,
+    "createdAt": "2024-09-16T11:21:00Z",
+    "owner": {
+      "email": "admin93@company.org"
+    }
+  },
+  {
+    "id": 94,
+    "name": "TechNova Solutions",
+    "status": null,
+    "memberCount": 659,
+    "createdAt": "2022-07-02T10:47:00Z",
+    "owner": {
+      "email": "admin94@northwind.example"
+    }
+  },
+  {
+    "id": 95,
+    "name": "Central Perk Roasters",
+    "status": null,
+    "memberCount": 1359,
+    "createdAt": "2021-03-17T18:21:00Z",
+    "owner": {
+      "email": "admin95@northwind.example"
+    }
+  },
+  {
+    "id": 96,
+    "name": "Hooli Technologies",
+    "status": "unknown",
+    "memberCount": null,
+    "createdAt": "2024-11-05T02:30:00Z",
+    "owner": {
+      "email": "admin96@example.com"
+    }
+  },
+  {
+    "id": 97,
+    "name": "Sterling Cooper Advertising",
+    "status": null,
+    "memberCount": 672,
+    "createdAt": "2024-09-02T19:04:00Z",
+    "owner": {
+      "email": "admin97@company.org"
+    }
+  },
+  {
+    "id": 98,
+    "name": "Dunder Mifflin Paper Co.",
+    "status": "SUSPENDED",
+    "memberCount": 185,
+    "createdAt": "2021-08-06T22:19:00Z",
+    "owner": {
+      "email": "admin98@example.com"
+    }
+  },
+  {
+    "id": 99,
+    "name": "Stark Industries #99",
+    "status": "ACTIVE",
+    "memberCount": "96",
+    "createdAt": "2022-03-06T02:39:00Z",
+    "owner": {
+      "email": "admin99@northwind.example"
+    }
+  },
+  {
+    "id": 100,
+    "name": "Nakatomi Trading",
+    "status": "inactve",
+    "memberCount": 1194,
+    "createdAt": "2023-08-09T21:00:00Z",
+    "owner": {}
+  },
+  {
+    "id": 101,
+    "name": "Planet Express Delivery",
+    "status": "INACTIVE",
+    "memberCount": null,
+    "createdAt": "2024-12-09T14:54:00Z",
+    "owner": {
+      "email": "admin101@corp.internal"
+    }
+  },
+  {
+    "id": 102,
+    "name": "Bluth Company #102",
+    "status": null,
+    "memberCount": 218,
+    "createdAt": "2023-12-10T00:53:00Z",
+    "owner": {
+      "email": "invalid-email-address"
+    }
+  },
+  {
+    "id": 103,
+    "name": "CloudScale Infrastructure",
+    "status": "active",
+    "memberCount": 1404,
+    "createdAt": "2024-05-25T07:38:00Z",
+    "owner": {
+      "email": "admin103@example.com"
+    }
+  },
+  {
+    "id": 25,
+    "name": "Wonka Industries",
+    "status": "suspended",
+    "memberCount": 1476,
+    "createdAt": "2021-05-26T14:02:00Z",
+    "owner": {
+      "email": "admin104@northwind.example"
+    }
+  },
+  {
+    "id": 105,
+    "name": "Quantum Leap Labs",
+    "status": "inactive",
+    "memberCount": null,
+    "createdAt": "2022-04-05T17:56:00Z",
+    "owner": {
+      "email": "invalid-email-address"
+    }
+  },
+  {
+    "id": 106,
+    "name": "InGen Genetics",
+    "status": "suspended",
+    "memberCount": 526,
+    "createdAt": "2023-12-28T10:51:00Z",
+    "owner": {
+      "email": "admin106@company.org"
+    }
+  },
+  {
+    "id": 107,
+    "name": "Pied Piper",
+    "status": "Active",
+    "memberCount": -4,
+    "createdAt": "2023-02-26T12:00:00Z",
+    "owner": {
+      "email": "admin107@company.org"
+    }
+  },
+  {
+    "id": 108,
+    "name": "Sterling Cooper Advertising",
+    "status": "unknown",
+    "memberCount": 1376,
+    "createdAt": "2023-02-22T07:30:00Z",
+    "owner": {
+      "email": "invalid-email-address"
+    }
+  },
+  {
+    "id": 109,
+    "name": "Stark Industries",
+    "status": "Suspended",
+    "memberCount": 453,
+    "createdAt": "2023-11-14T03:08:00Z",
+    "owner": {
+      "email": "admin109@company.org"
+    }
+  },
+  {
+    "id": 110,
+    "name": "Wayne Enterprises",
+    "status": "SUSPENDED",
+    "memberCount": 237,
+    "createdAt": "2022-07-15T11:42:00Z"
+  },
+  {
+    "id": 111,
+    "name": "   ",
+    "status": "pending",
+    "memberCount": 1488,
+    "createdAt": "2021-08-20T13:17:00Z",
+    "owner": {}
+  },
+  {
+    "id": 112,
+    "name": "Wayne Enterprises",
+    "status": "Inactive",
+    "memberCount": 483,
+    "createdAt": "2023-09-21T11:03:00Z",
+    "owner": {
+      "email": "admin112@example.com"
+    }
+  },
+  {
+    "id": 113,
+    "name": "Omni Consumer Products #113",
+    "status": "actve",
+    "memberCount": 931,
+    "createdAt": "2026-11-20T10:00:00Z"
+  },
+  {
+    "id": 114,
+    "name": "Stark Industries #114",
+    "status": "Suspended",
+    "memberCount": "33",
+    "createdAt": "not a date",
+    "owner": {
+      "email": "admin114@northwind.example"
+    }
+  },
+  {
+    "id": 115,
+    "name": "   Whitespace Heavy Enterprise   ",
+    "status": "Inactive",
+    "memberCount": 477,
+    "createdAt": 1720086720000,
+    "owner": {
+      "email": "ops+115@invalid"
+    }
+  },
+  {
+    "id": 116,
+    "name": "Synergy Capital Partners #116",
+    "status": "inactive",
+    "memberCount": 1106,
+    "createdAt": "2026-11-28T10:00:00Z",
+    "owner": {
+      "email": "invalid-email-address"
+    }
+  },
+  {
+    "id": 42,
+    "name": "Massive Dynamic #117",
+    "status": "inactve",
+    "memberCount": 32,
+    "createdAt": "not a date",
+    "owner": {}
+  },
+  {
+    "id": 118,
+    "name": "   ",
+    "status": "actve",
+    "memberCount": 975,
+    "createdAt": "2021-08-17T07:39:00Z",
+    "owner": {
+      "email": "admin118@corp.internal"
+    }
+  },
+  {
+    "id": 119,
+    "name": "Wayne Enterprises",
+    "status": "SUSPENDED",
+    "memberCount": 63,
+    "createdAt": "2024-07-22T03:31:00Z"
+  },
+  {
+    "id": 120,
+    "name": "",
+    "status": "unknown",
+    "memberCount": null,
+    "createdAt": "2021-03-09T19:40:00Z"
+  },
+  {
+    "id": 121,
+    "name": "Quantum Leap Labs",
+    "status": "Suspended",
+    "memberCount": 1223,
+    "createdAt": "2024-02-26T22:07:00Z",
+    "owner": {
+      "email": "admin121@company.org"
+    }
+  },
+  {
+    "id": 122,
+    "name": "Summit Peak Ventures",
+    "status": "Inactive",
+    "memberCount": 467,
+    "createdAt": "2021-06-14T10:42:00Z",
+    "owner": {
+      "email": "admin122@company.org"
+    }
+  },
+  {
+    "id": 123,
+    "name": "Sterling Cooper Advertising",
+    "status": "inactive",
+    "memberCount": 971,
+    "createdAt": "2021-07-04T23:47:00Z"
+  },
+  {
+    "id": 124,
+    "name": "InGen Genetics",
+    "status": "ACTIVE",
+    "memberCount": 1150,
+    "createdAt": "2024-12-02T09:38:00Z",
+    "owner": {
+      "email": "admin124@example.com"
+    }
+  },
+  {
+    "id": 125,
+    "name": "Bluth Company",
+    "status": "Inactive",
+    "memberCount": -8,
+    "createdAt": 1720950720000,
+    "owner": {
+      "email": "invalid-email-address"
+    }
+  },
+  {
+    "id": 126,
+    "name": "TechNova Solutions",
+    "status": "suspended",
+    "memberCount": 878,
+    "createdAt": "2023-01-06T08:44:00Z",
+    "owner": {
+      "email": "admin126@example.com"
+    }
+  },
+  {
+    "id": 127,
+    "name": "   Whitespace Heavy Enterprise   ",
+    "status": "Suspended",
+    "memberCount": 371,
+    "createdAt": "not a date",
+    "owner": {
+      "email": "admin127@company.org"
+    }
+  },
+  {
+    "id": 128,
+    "name": "   ",
+    "status": "active",
+    "memberCount": null,
+    "createdAt": "2023-03-12T09:46:00Z",
+    "owner": {
+      "email": "admin128@company.org"
+    }
+  },
+  {
+    "id": 129,
+    "name": "Prestige Worldwide",
+    "status": "Active",
+    "memberCount": 318,
+    "createdAt": "2021-05-15T21:27:00Z",
+    "owner": {}
+  },
+  {
+    "id": 77,
+    "name": "Synergy Capital Partners",
+    "status": "suspended",
+    "memberCount": "132",
+    "createdAt": "2023-11-22T18:31:00Z",
+    "owner": {}
+  },
+  {
+    "id": 131,
+    "name": "株式会社サクラ産業 🌸",
+    "status": "ACTIVE",
+    "memberCount": "154",
+    "createdAt": "2026-04-25T10:00:00Z"
+  },
+  {
+    "id": 132,
+    "name": "Massive Dynamic",
+    "status": "SUSPENDED",
+    "memberCount": "2",
+    "createdAt": "2026-07-18T10:00:00Z",
+    "owner": {
+      "email": "admin132@company.org"
+    }
+  },
+  {
+    "id": 133,
+    "name": "",
+    "status": "inactve",
+    "memberCount": 1368,
+    "createdAt": "2021-07-01T14:58:00Z",
+    "owner": {
+      "email": "admin133@example.com"
+    }
+  },
+  {
+    "id": 134,
+    "name": "Umbrella Corporation",
+    "status": "pending",
+    "memberCount": 1453,
+    "createdAt": 1721728320000,
+    "owner": {
+      "email": "admin134@corp.internal"
+    }
+  },
+  {
+    "id": 135,
+    "name": "Stark Industries",
+    "status": "INACTIVE",
+    "memberCount": 1265,
+    "createdAt": 1721814720000,
+    "owner": {
+      "email": "admin135@corp.internal"
+    }
+  },
+  {
+    "id": 136,
+    "name": "Hooli Technologies #136",
+    "status": null,
+    "memberCount": 810,
+    "createdAt": "2026-03-03T10:00:00Z",
+    "owner": {
+      "email": "admin136@corp.internal"
+    }
+  },
+  {
+    "id": 137,
+    "name": "مؤسسة النور الدولية ✨",
+    "status": "Inactive",
+    "memberCount": 715,
+    "createdAt": "2022-04-04T04:16:00Z",
+    "owner": {
+      "email": "ops+137@invalid"
+    }
+  }
+]
