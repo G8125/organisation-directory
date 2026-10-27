@@ -1,0 +1,54 @@
+<div class="app-layout">
+  <!-- Top Navigation Header -->
+  <header class="app-navbar" role="banner">
+    <div class="navbar-container">
+      <div class="brand-brandmark">
+        <div class="logo-box" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" class="logo-icon">
+            <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">Enterprise Ops</span>
+          <span class="brand-badge">Directory</span>
+        </div>
+      </div>
+
+      <!-- Navigation Right Controls: Brand Color Switcher (FR6 Reviewer feature) -->
+      <nav class="navbar-controls" aria-label="Application utilities">
+        <div class="brand-theme-picker">
+          <label for="theme-select" class="theme-label">
+            <span class="color-dot" aria-hidden="true"></span>
+            <span>{{ 'app.brand_switcher' | translate }}:</span>
+          </label>
+          <select
+            id="theme-select"
+            class="theme-select"
+            [value]="store.brandTheme()"
+            (change)="onBrandThemeChange($event)"
+            title="Switch brand token to test FR6 single-location theme customization"
+          >
+            <option value="default">Indigo / Navy (Default)</option>
+            <option value="teal">Teal / Cyan</option>
+            <option value="purple">Royal Purple</option>
+            <option value="emerald">Emerald Forest</option>
+          </select>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main View Outlet -->
+  <div class="app-main-content">
+    <router-outlet></router-outlet>
+  </div>
+
+  <!-- Standard Footer -->
+  <footer class="app-footer" role="contentinfo">
+    <div class="footer-container">
+      <p class="footer-text">{{ 'footer.text' | translate }}</p>
+      <span class="footer-pill">{{ 'footer.wcag' | translate }}</span>
+    </div>
+  </footer>
+</div>
