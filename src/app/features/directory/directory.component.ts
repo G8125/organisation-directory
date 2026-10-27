@@ -1145,7 +1145,7 @@ export class DirectoryComponent implements OnInit, OnDestroy {
   public readonly successToast = signal<string | null>(null);
 
   ngOnInit(): void {
-    // 1. Setup debounced free-text search (FR2: debounced free-text search on name)
+
     this.searchSub = this.searchSubject.pipe(
       debounceTime(300),
       distinctUntilChanged()
@@ -1154,7 +1154,7 @@ export class DirectoryComponent implements OnInit, OnDestroy {
       this.updateUrlParams();
     });
 
-    // 2. Synchronize filters from URL Query Params (FR2: Reflected in URL so filtered view can be shared)
+
     this.routeSub = this.route.queryParamMap.subscribe(params => {
       const q = params.get('q') || '';
       const status = (params.get('status') as OrganisationStatus | 'all') || 'all';
@@ -1168,7 +1168,7 @@ export class DirectoryComponent implements OnInit, OnDestroy {
       this.store.sortDirection.set(dir);
     });
 
-    // 3. Trigger initial load
+
     this.store.loadInitial();
   }
 
@@ -1201,7 +1201,7 @@ export class DirectoryComponent implements OnInit, OnDestroy {
 
   public toggleSort(field: SortField): void {
     if (this.store.sortField() === field) {
-      // Toggle direction
+
       this.store.sortDirection.update(d => d === 'asc' ? 'desc' : 'asc');
     } else {
       this.store.sortField.set(field);

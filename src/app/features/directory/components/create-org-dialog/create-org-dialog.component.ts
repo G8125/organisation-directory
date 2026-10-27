@@ -456,9 +456,6 @@ export class CreateOrgDialogComponent {
   public readonly showErrorSummary = signal<boolean>(false);
   public readonly apiSubmissionError = signal<string | null>(null);
 
-  /**
-   * Typed Non-Nullable Form with updateOn: 'blur' for field-level error display on blur
-   */
   public readonly form = this.fb.group({
     name: [
       '',
@@ -496,9 +493,7 @@ export class CreateOrgDialogComponent {
   public get ownerControl() { return this.form.controls.ownerEmail; }
   public get memberCountControl() { return this.form.controls.memberCount; }
 
-  /**
-   * Computes human-readable list of all current errors for the accessible banner
-   */
+
   public formErrorList(): string[] {
     const errors: string[] = [];
     if (this.nameControl.invalid) {
@@ -520,9 +515,7 @@ export class CreateOrgDialogComponent {
     return errors;
   }
 
-  /**
-   * Async Validator: Checks if organisation name is already taken case-insensitively
-   */
+
   private uniqueNameAsyncValidator(): AsyncValidatorFn {
     return async (control: AbstractControl): Promise<ValidationErrors | null> => {
       const val = control.value;
